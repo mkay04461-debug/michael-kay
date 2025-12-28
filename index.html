@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>michael</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="cadre">
+             <h1>bienvenue michael</h1>
+             <h2>je suis ton  assistant, denzel</h2>
+             <img src="photo.jpg" width="200">
+            
+                 <a href="https://www.google.com"> aller sur google</a>
+                 <button onclick="saluer()">clique</button>
+                 <p>nous avons besoin des information ci-dessous, pour te connecter au discord</p>
+                 <form onsubmit="return verifierformulaire()">
+                 <label>nom:</label><br>
+                 <input type="text" id="nom"><br><br>
+
+                 <label>massage;</label><br>
+                 <textarea id="message"></textarea><br><br>
+                 <button type="submit" value="envoyer">envoyer</button>
+             </form>
+              <script > 
+                function verifierformulaire(){
+
+                    let nom = document.getElementById("nom").value;
+                    let message = document.getElementById("message").value;
+
+                    if (nom== ""|| message === "") {
+                        alert("veuillez remplir tout les champ!");
+                        return false;
+                    }
+                    alert("formulaire envoyer avec succes!");
+                    return true;
+                }
+             </script>
+        </div>
+    </body>
+</html>

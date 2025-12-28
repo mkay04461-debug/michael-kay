@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(130deg,blueviolet,white,white,cyan);
+    text-align: center;
+    font-family:  sans-serif;
+}
+
+.cadre{
+    background-color: ;
+    border: 2px solid rgb(159, 198, 235);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px;
+}
+h1{
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+p{
+    color: blueviolet;
+}
